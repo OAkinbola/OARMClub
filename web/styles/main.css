@@ -1,0 +1,111 @@
+/* 
+    Created on : 11-Feb-2022, 20:05:12
+    Authors     : Olayimika Akinbola and Rose Rezvan Mansouri
+*/
+
+html { background-color :#f8f4ff;}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin: 2em;
+    width:95%;
+    border: 3px solid #080808;
+    background-color: #A9A9A9;
+    
+  
+}
+
+
+
+
+header h1 {
+    color: gold;
+    margin-left: 1em;}
+
+header h2 {
+    color: green;
+    font-style:italic;}
+
+
+header img {
+    float: left;
+    margin: 0em 3em;   
+}
+
+nav {
+    border-top : 3px solid gold;
+    border-bottom: 3px solid gold;
+    margin: 3em 2em;
+    text-align: right;
+}
+
+nav > a {
+  font-size:larger;
+  font-weight: bold;
+  color: green;
+  display: inline-block;
+  margin: 5px; 
+}
+
+h1 {
+    font-size: 140%;
+    color: black;
+    margin-left: 2em 
+}
+
+h3{
+     color: green;
+    margin-left: 2em 
+}
+p{
+     margin-left: 3em; 
+     
+}
+label {
+    float: left;
+    width: 7em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    font-weight: bold;    
+}
+
+input[type="text"], input[type="email"], select[name="program"], select[name="year"] {  /* An attribute selector */
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+     margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+span {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+
+footer {
+    margin: 2em; 
+    text-align: right;   
+    border-top : 3px solid gold;
+}
+
+table, th, td {
+  border:2px solid black;
+  margin-left: 3em;
+}
+
+a:link {
+  color: green;
+}
+a:visited{
+  color: green;  
+}
+
